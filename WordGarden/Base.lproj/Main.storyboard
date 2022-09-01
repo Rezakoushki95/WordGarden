@@ -11,7 +11,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WordGarden" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -69,7 +68,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_ _ _ _ _" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6av-7M-YE7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6av-7M-YE7">
                                 <rect key="frame" x="16" y="131" width="343" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="DPl-r5-fur"/>
@@ -160,7 +159,7 @@
                         <outlet property="flowerImageView" destination="vgz-yZ-6aP" id="J0j-ZF-oQ9"/>
                         <outlet property="gameStatusMessageLabel" destination="Xv5-cv-56q" id="cam-FI-N6h"/>
                         <outlet property="guessLetterButton" destination="mdz-MN-3AE" id="dzG-V0-tjo"/>
-                        <outlet property="guessedLetterField" destination="Gxe-Vd-ncS" id="Neu-k6-g03"/>
+                        <outlet property="guessedLetterTextField" destination="Gxe-Vd-ncS" id="Neu-k6-g03"/>
                         <outlet property="playAgainButton" destination="ChP-1j-Ou9" id="p77-49-ZQz"/>
                         <outlet property="wordBeingRevealedLabel" destination="6av-7M-YE7" id="dzA-Rn-MQb"/>
                         <outlet property="wordsGuessedLabel" destination="QTP-6P-aDP" id="3lA-eZ-aQD"/>
@@ -169,6 +168,7 @@
                         <outlet property="wordsRemainingLabel" destination="P39-5e-1fX" id="KVD-GW-HyD"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="120.8" y="118.29085457271366"/>
         </scene>
