@@ -131,7 +131,7 @@ class ViewController: UIViewController {
 					// otherwise we are on flower0
 					// - playSound (word-not-guessed)
 					// - perform another UIView Transition to Flower0
-					
+					//
 					if self.wrongGuessesRemaining != 0 {
 						self.flowerImageView.image = UIImage(named: "flower\(self.wrongGuessesRemaining)")
 					} else {
